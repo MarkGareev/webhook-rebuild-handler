@@ -7,7 +7,7 @@ const PORT = process.env.PORT ?? 1338;
 const WEBHOOK_API_ROUTE =
   process.env.WEBHOOK_API_ROUTE ?? "/webhook-rebuild-handler";
 const REBUILD_COMMAND =
-  process.env.REBUILD_COMMAND ?? "cd ~/glbackend/ && npm run generate";
+  process.env.REBUILD_COMMAND ?? "cd ~/glfront/ && npm run generate";
 
 const app = express();
 
